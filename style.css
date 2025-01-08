@@ -1,0 +1,77 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(100,100,100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(130, 173, 173);
+    padding: min(20px, 8%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+.box{
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #217824;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #144117;
+}
+
+.passwords{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.passwords_padding{
+    padding: .3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    row-gap: .5rem;
+}
+
+li {
+    border-radius: 4px;
+    word-wrap: break-word;
+}
